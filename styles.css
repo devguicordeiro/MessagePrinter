@@ -64,3 +64,32 @@ h3{
 .submitbutton:active{
     background-color: purple;
 }
+
+#message-output{
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.devguicordeirofooter {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 3vh;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .fa-github {
+    color: black;
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .fa-github:hover {
+    transform: rotate(360deg) scale(1.3);
+  }
