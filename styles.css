@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    background: linear-gradient(violet, white) no-repeat;
+    overflow: hidden;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+}
+
+.message-printer{
+    background: rgb(238, 130, 238);
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 0 20px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.486)
+}
+  
+h3{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.botb{
+    border-bottom: 2px solid rgba(211, 211, 211, 0.5);
+} 
+
+.mbutton{
+    border-radius: 5px 0 0 5px;
+    padding: 8px;
+}
+
+#message-input{
+    width: 90%;
+    border-radius: 0 5px 5px 0;
+    padding: 8px 0;
+    margin-top: 5px;
+}
+
+.submitbutton{
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 4px;
+    border: 2px solid rgb(255, 0, 255);
+}
+
+.submitbutton:hover{
+    background-color: rgb(255, 187, 227);
+}
+
+.submitbutton:active{
+    background-color: purple;
+}
